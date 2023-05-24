@@ -1,4 +1,5 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project:Binary Tree Parser and Visualization
+This project aims to solve various problems related to parsing and visualizing a binary tree data structure. It provides functions implemented in JavaScript/TypeScript along with a Single Page Web Application using React and a state management library.
 
 ## Available Scripts
 
