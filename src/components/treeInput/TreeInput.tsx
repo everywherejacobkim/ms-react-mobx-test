@@ -23,17 +23,20 @@ export class TreeInput extends React.Component<TreeInputProps, TreeInputState> {
         };
     }
 
+    // Function to parse an array format into a tree structure
     parseArrayToTree(arrayFormat: any[]): BinTreeNode {
     const treeJson = convertBinaryTreeToJSON(arrayFormat);
     const treeNode = JSON.parse(treeJson) as BinTreeNode;
     return treeNode;
     }
 
+    // Event handler for file input change
     handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0] || null;
     this.setState({ file });
     };
 
+    // Function to convert the file content into a tree structure
     convert = () => {
         if (this.state.file) {
             const reader = new FileReader();
