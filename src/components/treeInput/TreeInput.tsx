@@ -69,7 +69,6 @@ export class TreeInput extends React.Component<TreeInputProps, TreeInputState> {
             </div>
             <textarea
                 rows={15}
-                cols={120}
                 value={this.state.result}
                 onChange={(e) => {
                 this.setState({

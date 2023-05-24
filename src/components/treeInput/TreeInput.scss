@@ -1,5 +1,6 @@
 .InputGroup {
     text-align: center;
+    max-width: 100%;
     .InputContainer {
         display: flex;
         flex-direction: column;
@@ -37,7 +38,10 @@
         }
     }
     textarea {
+        width: 100%;
         font-size: 1rem;
-        padding: 20px;
+        margin: 0 auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 }

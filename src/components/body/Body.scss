@@ -7,6 +7,10 @@
         font-size: 1.5rem;
         font-weight: bold;
     }
+    .Body-main {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
     .OutputGroup {
         margin-bottom: 40px;
         .Output-title {
@@ -15,7 +19,6 @@
             margin-bottom: 10px;
         }
         .OutputContainer {
-            width: 60.3%;
             padding: 10px;
             border: 1px solid black;
             background: rgba(241, 241, 195, 0.5);

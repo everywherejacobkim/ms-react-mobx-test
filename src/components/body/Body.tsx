@@ -16,18 +16,21 @@ const BodyRenderer: React.FunctionComponent<BodyProps> = observer((props) => {
             <div className='Body-title'>
                 {props.appState!.bodyMessage}
             </div>
-            <TreeInput onChange={(newVal) => {
-                props.appState.setState({
-                    ...props.appState,
-                    treeNode: newVal
-                })
-            }} />
-            <div className="OutputGroup">
-                <div className='Output-title'>Output</div>
-                <div className="OutputContainer">
-                    <TreeOutput treeNode={props.appState.treeNode} />
+            <div className='Body-main'>
+                <TreeInput onChange={(newVal) => {
+                    props.appState.setState({
+                        ...props.appState,
+                        treeNode: newVal
+                    })
+                }} />
+                <div className="OutputGroup">
+                    <div className='Output-title'>Output</div>
+                    <div className="OutputContainer">
+                        <TreeOutput treeNode={props.appState.treeNode} />
+                    </div>
                 </div>
             </div>
+    
         </main>
     );
 })
