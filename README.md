@@ -1,45 +1,27 @@
-Project:Binary Tree Parser and Visualization
-This project aims to solve various problems related to parsing and visualizing a binary tree data structure. It provides functions implemented in JavaScript/TypeScript along with a Single Page Web Application using React and a state management library.
+This project aims to solve various problems related to parsing and visualizing a binary tree data structure. It provides functions implemented in TypeScript along with a Single Page Web Application using React and MobX state management library.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Problem 1: Binary Tree Parsing
 
-### `yarn start`
+The function convertBinaryTreeToJSON can be found in the src/utils/binaryTreeParser file. You can see the testing code in App.tsx. To run it in a localhost environment, use the command yarn start. Once running, you can see the function's output on the main page by checking the console. Please refer to the screenshot below for an example.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<img width="1440" alt="screenshot 2023-05-24 오후 6 49 58" src="https://github.com/everywherejacobkim/ms-parsing-tree-react-typescript/assets/87889917/5eb4ad6a-805f-492f-97d2-c7cd711fc3f9">
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## Problem 2: Binary Tree Visualization Web App
 
-### `yarn test`
+Please follow the steps below to test the application:
+- Add a .txt file that contains an array for parsing. The array should follow the format: [id, leftChild, rightChild]. This file will serve as the input for the binary tree.
+- Check the binary tree data structure by viewing it in the textarea.
+- Below the textarea, you can find the output area where the binary tree will be displayed in a visual format.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![screenshot 2023-05-24 오후 8 36 02](https://github.com/everywherejacobkim/ms-parsing-tree-react-typescript/assets/87889917/7ee80849-9f07-48d1-8625-b59eede1c6cc)
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Problem 3: Highlighting the Smallest Subtree
+Test multiple arrays for parsing and check the smallest subtree highlighted with a green color border.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+![screenshot 2023-05-24 오후 8 49 16](https://github.com/everywherejacobkim/ms-parsing-tree-react-typescript/assets/87889917/1a9f773d-5d0c-49d6-81fc-15019f5baaae)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+* Note: Enhance the user experience of this app by styling it with a green and yellow color theme and center alignment. 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
