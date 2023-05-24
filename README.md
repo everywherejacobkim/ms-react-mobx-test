@@ -1,4 +1,5 @@
-### This project aims to solve various problems related to parsing and visualizing a binary tree data structure. It provides functions implemented in TypeScript along with a Single Page Web Application using React and MobX state management library.
+This project aims to solve various problems related to parsing and visualizing a binary tree data structure. It provides functions implemented in TypeScript along with a Single Page Web Application using React and MobX state management library.
+
 
 ## Problem 1: Binary Tree Parsing
 
@@ -22,4 +23,5 @@ Test multiple arrays for parsing and check the smallest subtree highlighted with
 ![screenshot 2023-05-24 오후 8 49 16](https://github.com/everywherejacobkim/ms-parsing-tree-react-typescript/assets/87889917/1a9f773d-5d0c-49d6-81fc-15019f5baaae)
 
 
-**Note: Enhance the user experience of this app by styling it with a green and yellow color theme and center alignment **
+* Note: Enhance the user experience of this app by styling it with a green and yellow color theme and center alignment. 
+
