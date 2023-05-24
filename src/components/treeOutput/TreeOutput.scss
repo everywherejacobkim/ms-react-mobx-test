@@ -1,0 +1,29 @@
+.treeNode {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    > .nodeId {
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 5px;
+    }
+
+    > .nodeChildren {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        > .treeNode {
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+    }
+
+    &.smallestSubtree {
+        border: 2px solid green;
+    }
+}

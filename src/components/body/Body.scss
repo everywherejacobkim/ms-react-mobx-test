@@ -1,0 +1,27 @@
+.App-body {
+    > * {
+        margin: 10px 5px;
+        text-align: center;
+    }
+    .Body-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .OutputGroup {
+        margin-bottom: 40px;
+        .Output-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .OutputContainer {
+            width: 60.3%;
+            padding: 10px;
+            border: 1px solid black;
+            background: rgba(241, 241, 195, 0.5);
+            margin: 0 auto;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+    }
+}

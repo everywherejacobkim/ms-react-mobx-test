@@ -1,0 +1,43 @@
+.InputGroup {
+    text-align: center;
+    .InputContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 20px;
+        
+        label {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        input {
+            transform: translateX(95px);
+        }
+        
+        button {
+            margin-top: 10px;
+            margin-bottom: 20px;
+            width: fit-content;
+            padding: 7px 16px;
+            background-color: #008000;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            
+            &:hover {
+                background-color: #eeef20;
+                color: #132a13;
+            }
+        }
+    }
+    textarea {
+        font-size: 1rem;
+        padding: 20px;
+    }
+}
