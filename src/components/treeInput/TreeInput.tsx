@@ -55,7 +55,7 @@ export class TreeInput extends React.Component<TreeInputProps, TreeInputState> {
     return (
         <div className="InputGroup">
             <div className="InputContainer">
-                <label htmlFor="source-input">Tree source</label>
+                <label htmlFor="source-input">Tree source(.txt)</label>
                 <input
                     type="file"
                     id="source-input"
